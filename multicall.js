@@ -28,7 +28,6 @@ async function decode(data) {
     } catch (err) {
       text64 += selector
     }
-    console.log(text64)
 
     if (text64.length == 64) {
       console.log(`\t${text64}`)
